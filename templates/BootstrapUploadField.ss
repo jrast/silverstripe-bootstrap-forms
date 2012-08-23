@@ -52,10 +52,11 @@
      </div>
      <div class="ss-uploadfield-item-info">
          <input id="$id" name="$getName" class="$extraClass ss-uploadfield-fromcomputer-fileinput input-file" data-config="$configString" type="file"<% if $multiple %> multiple="multiple"<% end_if %> />
-         <button class="ss-uploadfield-fromfiles btn btn-info" title="<% _t('UploadField.FROMCOMPUTERINFO', 'Select from files') %>" ><i class="icon-file"></i> <% _t('UploadField.FROMFILES', 'From files') %></button>
+         <button class="ss-uploadfield-fromfiles btn btn-info" title="<% _t('UploadField.FROMCOMPUTERINFO', 'Select from files') %>" ><i class="icon-file icon-white"></i> <% _t('UploadField.FROMFILES', 'From files') %></button>
          <% if not $autoUpload %>                            
-            <button class="ss-uploadfield-startall btn btn-success" title="<% _t('UploadField.STARTALLINFO', 'Start all uploads') %>" ><i class="icon-upload"></i> <% _t('UploadField.STARTALL', 'Start all') %></button>
+            <button class="ss-uploadfield-startall btn btn-success" title="<% _t('UploadField.STARTALLINFO', 'Start all uploads') %>" ><i class="icon-upload icon-white"></i> <% _t('UploadField.STARTALL', 'Start all') %></button>
          <% end_if %>
      </div>
+     <div class="clear"><!-- --></div>
 </div>
 <% end_if %>

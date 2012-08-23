@@ -174,6 +174,7 @@ class BootstrapForm extends Form {
 		if(!$this->stat('jquery_included')) {
 			Requirements::javascript(THIRDPARTY_DIR."/jquery/jquery.js");
 		}
+                Requirements::css('bootstrap_forms/css/bootstrap_forms.css');
 		Requirements::javascript("bootstrap_forms/javascript/bootstrap_forms.js");
 		$this->addExtraClass("form-{$this->formLayout}");
 		$this->applyBootstrap();
