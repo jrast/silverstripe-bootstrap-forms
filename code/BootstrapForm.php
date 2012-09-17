@@ -109,6 +109,10 @@ class BootstrapForm extends Form {
 					break;
 				}
 			}
+
+/*			if($f->class == 'UploadField') {
+				// Modify the UploadField
+			}*/
 		}		
 	}
 
